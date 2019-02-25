@@ -1,5 +1,7 @@
 const Hapi = require('hapi')
+const dotenv = require('dotenv').config()
 var routes = require('./config/routes')
+const db = require('./config/db').db
 
 const server = Hapi.server({
   port: 3000,
