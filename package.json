@@ -27,7 +27,8 @@
   "homepage": "https://github.com/florlafuente/codigo-vegano#readme",
   "dependencies": {
     "dotenv": "^6.2.0",
-    "hapi": "^18.1.0"
+    "hapi": "^18.1.0",
+    "mongoose": "^5.4.15"
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
